@@ -1,0 +1,17 @@
+// Task-2
+// Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student.
+
+// Input:
+// The first line of the input is the marks of the five subjects mentioned above, respectively.
+
+// Output:
+// Print the result in 2 decimal places.
+var numberOfBangla=parseInt(prompt("Enter the marks of Bangla=")),numberOfMath=parseInt(prompt("Enter the mark of Mathematics=")),numberOfChemistry=parseInt(prompt("Enter the marks of Chemistry=")),numberOfPhysics=parseInt(prompt("Enter the mark of Physics=")),numberOfBiology=parseInt(prompt("Enter the value of biology=")),sum,mean;
+
+sum=numberOfBangla+numberOfMath+numberOfChemistry+numberOfPhysics+numberOfBiology;
+
+console.log("Summation of marks=",sum,"</br>")
+
+mean=sum/5;
+console.log("The average of marks=",mean);
+

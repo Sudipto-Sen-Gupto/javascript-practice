@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /***
+
+Grade Calculator
+
+Create a simple JavaScript program that takes a student's score as input and returns their corresponding grade based on the following grading scale:
+
+    A: 90-100
+    B: 80-89
+    C: 70-79
+    D: 60-69
+    F: 0-59
+
+***/
+var studentScore=parseInt(prompt("Enter your mark="))
+console.log("Your mark=",studentScore);
+
+if(80<=studentScore && studentScore<=100){
+
+    console.log("Congratulation.You have got A+");
+}
+else if(70<=studentScore && studentScore<=79){
+    console.log("Very good. You have got A");
+}
+else if (60<=studentScore && studentScore<=69){
+    console.log("Good, You have got A-");
+}
+else if(50<=studentScore && studentScore<=59){
+    console.log("Not good, You have got B");
+}
+
+else if(40<=studentScore && studentScore<=49){
+    console.log("Bad . You have got C");
+}
+else if(33<=studentScore && studentScore<=39){
+    console.log("Very bad. You have got D");
+}
+else{
+    if(studentScore>100){
+        console.log("Not valid number");
+    }
+    else{
+        console.log("You are fail");
+    }
+} 
+    </script>
+</body>
+</html>
